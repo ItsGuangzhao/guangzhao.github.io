@@ -59,3 +59,40 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* 菜单整体 */
+.menu {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+/* 按钮 */
+.menu-btn {
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/* 下拉菜单 */
+.menu-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 10px 0;
+  min-width: 140px;
+}
+
+/* 每个链接 */
+.menu-content a {
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: #1a0dab;
+}
+
+.menu-content a:hover {
+  background: #f5f5f5;
+}
