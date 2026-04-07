@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Papers - Guangzhao Zhu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Papers</h1>
+    <p class="subtitle">Guangzhao Zhu</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="papers.html">Papers</a>
+    <a href="teaching.html">Teaching</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h2>Preprints</h2>
+  <ul>
+    <li>
+      <strong>Weil restriction and the motivic étale cycle class map</strong><br>
+      with collaborators<br>
+      [arXiv link]
+    </li>
+  </ul>
+
+  <h2>Submitted</h2>
+  <ul>
+    <li>
+      <strong>Artin Shapes</strong><br>
+      submitted
+    </li>
+    <li>
+      <strong>Rationality of cycles mod 2</strong><br>
+      with collaborators<br>
+      submitted
+    </li>
+  </ul>
+
+  <h2>Accepted / Published</h2>
+  <ul>
+    <li>
+      <strong>Pullback and ...</strong><br>
+      with collaborators<br>
+      <em>Indagationes Mathematicae</em>
+    </li>
+  </ul>
+
+  <footer>
+    Last updated: April 2026
+  </footer>
+</body>
+</html>
