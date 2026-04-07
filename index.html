@@ -6,41 +6,67 @@
   <title>Guangzhao Zhu</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <header>
-    <h1>Guangzhao Zhu</h1>
-    <p class="subtitle">PhD Student in Mathematics, University of Alberta</p>
-  </header>
 
-  <nav>
+<body>
+
+<!-- 导航栏 -->
+<div class="menu">
+  <div class="menu-btn" onclick="toggleMenu()">☰</div>
+  <div id="menu-content" class="menu-content">
     <a href="index.html">Home</a>
     <a href="research.html">Research</a>
     <a href="papers.html">Papers</a>
     <a href="teaching.html">Teaching</a>
     <a href="contact.html">Contact</a>
-  </nav>
+  </div>
+</div>
+<div class="container">
 
-  <h2>About</h2>
-  <p>
-    I am a PhD student in mathematics at the University of Alberta,
-    working under the supervision of Nikita Karpenko.
-  </p>
+  <!-- 左边图片 -->
+  <div class="left">
+    <img src="photo.jpg" alt="photo">
+  </div>
 
-  <p>
-    My research interests lie in motivic cohomology, algebraic cobordism,
-    and motivic homotopy theory. I am particularly interested in Weil restriction,
-    norm functors, and their interactions with cohomology theories and cycle class maps.
-  </p>
+  <!-- 右边文字 -->
+  <div class="right">
+    <h1>Guangzhao Zhu</h1>
+    <p class="subtitle">
+      PhD Student in Mathematics<br>
+      University of Alberta
+    </p>
 
-  <h2>Quick Links</h2>
-  <ul>
-    <li><a href="cv.pdf" target="_blank">Curriculum Vitae</a></li>
-    <li><a href="papers.html">Publications and Preprints</a></li>
-    <li><a href="contact.html">Contact Information</a></li>
-  </ul>
+    <p>
+      I am a PhD student in mathematics at the University of Alberta,
+      working under the supervision of Nikita Karpenko.
+    </p>
 
-  <footer>
-    Last updated: April 2026
-  </footer>
+    <p>
+      My research interests lie in motivic cohomology, algebraic cobordism,
+      and motivic homotopy theory. I am particularly interested in Weil restriction,
+      norm functors, and their interactions with cohomology theories.
+    </p>
+
+    <p>
+      <a href="cv.pdf" target="_blank">Curriculum Vitae</a> |
+      <a href="#">arXiv</a> |
+      <a href="#">Google Scholar</a>
+    </p>
+  </div>
+
+</div>
+
+<script>
+function toggleMenu() {
+  var menu = document.getElementById("menu-content");
+  if (menu.style.display === "block") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "block";
+  }
+}
+</script>
+
+
+  
 </body>
 </html>
