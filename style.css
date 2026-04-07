@@ -1,49 +1,54 @@
 body {
-  max-width: 900px;
-  margin: 50px auto;
-  padding: 0 20px;
+  margin: 0;
   font-family: Georgia, "Times New Roman", serif;
-  line-height: 1.7;
   color: #222;
-  background: #fff;
 }
 
-header {
-  margin-bottom: 30px;
+/* 右上角导航 */
+.topnav {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.topnav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #1a0dab;
+  font-size: 16px;
+}
+
+.topnav a:hover {
+  text-decoration: underline;
+}
+
+/* 主布局 */
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin: 120px auto;
+  gap: 50px;
+  padding: 0 20px;
+}
+
+/* 左边图片 */
+.left img {
+  width: 260px;
+  border-radius: 6px;
+}
+
+/* 右边内容 */
+.right {
+  max-width: 600px;
 }
 
 h1 {
-  font-size: 2.2rem;
-  margin-bottom: 0.2rem;
+  margin-bottom: 10px;
 }
 
 .subtitle {
   color: #666;
   margin-top: 0;
-}
-
-nav {
-  margin-top: 20px;
-  margin-bottom: 30px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #ddd;
-}
-
-nav a {
-  margin-right: 18px;
-  text-decoration: none;
-  color: #1a0dab;
-  font-weight: 500;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-h2 {
-  margin-top: 35px;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 6px;
 }
 
 a {
@@ -53,16 +58,4 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
-
-ul {
-  padding-left: 22px;
-}
-
-footer {
-  margin-top: 50px;
-  padding-top: 15px;
-  border-top: 1px solid #ddd;
-  color: #666;
-  font-size: 0.95rem;
 }
