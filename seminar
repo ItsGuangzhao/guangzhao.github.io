@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seminars - Guangzhao Zhu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-title">
+    <a href="index.html">Guangzhao Zhu</a>
+  </div>
+
+  <nav class="desktop-nav">
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="papers.html">Papers</a>
+    <a href="seminar.html">Seminar</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+</header>
+
+<nav id="mobileMenu" class="mobile-nav">
+  <a href="index.html">Home</a>
+  <a href="research.html">Research</a>
+  <a href="papers.html">Papers</a>
+  <a href="seminar.html">Seminar</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<main class="home-section">
+
+  <h1>Seminars and Talks</h1>
+
+  <h2>2026</h2>
+
+  <div class="seminar-item">
+    <strong>Weil Restriction and Motivic Cycle Maps</strong><br>
+    University of Alberta Algebra Seminar<br>
+    March 2026
+    <p>
+      A discussion of the interaction between Weil restriction and motivic étale cycle class maps.
+    </p>
+
+    <p class="links">
+      <a href="slides/sample.pdf" target="_blank">Slides</a>
+      <span>|</span>
+      <a href="notes/sample.pdf" target="_blank">Notes</a>
+    </p>
+  </div>
+
+  <h2>2025</h2>
+
+  <div class="seminar-item">
+    <strong>Norm Functors in Motivic Homotopy Theory</strong><br>
+    Graduate Seminar<br>
+    November 2025
+    <p>
+      Introduction to norm functors and their applications in motivic homotopy theory.
+    </p>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <p>Last updated: April 2026</p>
+</footer>
+
+<script>
+function toggleMenu() {
+  const menu = document.getElementById("mobileMenu");
+  menu.classList.toggle("show");
+}
+
+document.addEventListener("click", function(event) {
+  const menu = document.getElementById("mobileMenu");
+  const button = document.querySelector(".menu-toggle");
+
+  if (!menu.contains(event.target) && !button.contains(event.target)) {
+    menu.classList.remove("show");
+  }
+});
+</script>
+
+</body>
+</html>
